@@ -1,0 +1,102 @@
+:root {
+    --main_color: #FFFFFF;
+    --secondary-color: #08A6E4;
+    --main-font-color: #000000;
+    --secondary-font-color: #A5A5A5;
+    --main-bg-color: #FFFFFF;
+    --secondary-bg-color: #F7F7F7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', 'Raleway', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
+
+}
+
+.header {
+    max-width: 1352px;
+}
+
+.nav {
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 70px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 36px;
+    /*margin-top: 16px;*/
+    height: 70px;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    color: var(--secondary-color);
+
+}
+
+.nav_menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+    /*padding: 1em 1em;*/
+    font-size: 15px;
+    color: var(--secondary-font-color);
+    letter-spacing: 3.28px;
+    margin-left: 2em;
+}
+
+/*co zrobić aby border się zaznaczał */
+.nav .nav__menu__item:hover {
+    color: var(--main-font-color);
+    border-bottom: 4px solid #08A6E4;
+
+}
+
+/*Section section_opening*/
+
+.main {
+    max-width: 1352px;
+    display: flex;
+    justify-content: center;
+}
+
+.section_opening {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    background: url("../images/Background.png");
+    color: var(--main-font-color);
+}
+
+.title_section_opening {
+
+    font-size: 57px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 0.5em;
+}
+
+.paragraph_section_opening {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 1.5em;
+}
+
+.cta {
+    width: 440px;
+
+}
